@@ -1,5 +1,13 @@
 For this preprocessing pipeline, we recommend the conversion of DICOM files to NIfTI format, to facilitate the use of CT_BET by aqqush (https://github.com/aqqush/CT_BET)
 
+Python imports
+1. dicom2nifti
+2. numpy
+3. nibabel
+4. nilearn
+5. itertools
+6. fslmaths
+
 Preprocessing steps are as follows:
 
 (1) Conversion of DICOM to NIfTI files with dicom2nifti (https://github.com/icometrix/dicom2nifti)
@@ -27,7 +35,7 @@ Preprocessing steps are as follows:
 These steps are individually placed in python scripts in the repository, and also a combined script I use to run the whole thing on multiple files in a folder
 For the use of CT_BET, the folder required can be obtained from the link above and the weights file has to be obtained there as well.
     
-References
+=========References=========
 
 dicom2nifti (https://github.com/icometrix/dicom2nifti)
 
