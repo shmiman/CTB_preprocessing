@@ -24,7 +24,8 @@ Preprocessing steps are as follows:
     > However, resampling might be required to standardise all images to a particular set of dimensions (X, Y, Z)
     > You might also want to downsample the images for testing your code prior
     
-    
+These steps are individually placed in python scripts in the repository, and also a combined script I use to run the whole thing on multiple files in a folder
+For the use of CT_BET, the folder required can be obtained from the link above and the weights file has to be obtained there as well.
     
 References
 
