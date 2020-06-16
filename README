@@ -39,9 +39,10 @@ These steps are placed in a combined script I use to run the whole thing on mult
 For the use of CT_BET, the folder required can be obtained from the link above and the weights file has to be obtained there as well.
 
 1) Clone the preprocessing folder
-2) Place DICOM scans in the import subfolder
-3) Run preprocessing.py
-4) Completed files will be placed in the output folder
+2) Download weights file from (https://drive.google.com/open?id=1CGL47xJRgrw6ftOX0GMt2juW1yHrE7cc) and place them in the weights folder
+3) Place DICOM scans in the import subfolder
+4) Run preprocessing.py
+5) Completed files will be placed in the output folder
     
 =========References=========
 
