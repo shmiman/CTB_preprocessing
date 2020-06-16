@@ -7,6 +7,7 @@ Python imports
 4. nilearn
 5. itertools
 6. fslmaths
+7. tensorflow
 
 Preprocessing steps are as follows:
 
@@ -31,9 +32,16 @@ Preprocessing steps are as follows:
     > At this point we have the image ready to be passed through your machine learning code
     > However, resampling might be required to standardise all images to a particular set of dimensions (X, Y, Z)
     > You might also want to downsample the images for testing your code prior
-    
-These steps are individually placed in python scripts in the repository, and also a combined script I use to run the whole thing on multiple files in a folder
+
+=========Running=========
+
+These steps are placed in a combined script I use to run the whole thing on multiple files in a folder
 For the use of CT_BET, the folder required can be obtained from the link above and the weights file has to be obtained there as well.
+
+1) Clone the preprocessing folder
+2) Place DICOM scans in the import subfolder
+3) Run preprocessing.py
+4) Completed files will be placed in the output folder
     
 =========References=========
 
